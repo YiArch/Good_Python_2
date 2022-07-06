@@ -1,0 +1,18 @@
+type: choice
+is_multiple_choice: true
+options:
+- text: dataBase
+- text: Sergey_Balakirev
+- text: SergeyBalakirev
+- text: DataBase
+- text: Data123
+- text: data_base
+files:
+- name: task.py
+  visible: true
+  text: |+
+    #  You can experiment here, it won’t be checked
+
+  learner_created: false
+status: Solved
+record: -1

@@ -1,0 +1,20 @@
+type: choice
+is_multiple_choice: true
+options:
+- text: в классе IPhone выполняется переопределение метода get_info()
+- text: в методе get_info() класса IPhone выполняется делегированый вызов метода get_info()
+    класса SmartPhone
+- text: класс IPhone расширяет класс SmartPhone
+- text: класс IPhone лишь переопределяет класс SmartPhone
+- text: в методе get_info() класса SmartPhone выполняется делегированый вызов метода
+    get_info() класса IPhone
+files:
+- name: task.py
+  visible: true
+  text: |+
+    #  You can experiment here, it won’t be checked
+
+  learner_created: false
+status: Unchecked
+record: -1
+custom_name: Quiz

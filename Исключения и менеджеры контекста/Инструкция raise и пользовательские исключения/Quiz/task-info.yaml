@@ -1,0 +1,19 @@
+type: choice
+is_multiple_choice: true
+options:
+- text: оператор raise позволяет генерировать различные исключения
+- text: оператор raise возвращает объект исключения (подобно оператору return)
+- text: после выполнения оператора raise программа останавливает свою работу, если
+    исключение не обрабатывается
+- text: после оператора raise указывается строка с описанием возникшей ошибки
+- text: после оператора raise следует указывать объект класса, унаследованного от
+    BaseException
+files:
+- name: task.py
+  visible: true
+  text: |+
+    #  You can experiment here, it won’t be checked
+
+  learner_created: false
+status: Unchecked
+record: -1

@@ -1,0 +1,18 @@
+type: choice
+is_multiple_choice: true
+options:
+- text: наследование
+- text: миграция
+- text: инкапсуляция
+- text: унификация
+- text: структурированность
+- text: полиморфизм
+files:
+- name: task.py
+  visible: true
+  text: |+
+    #  You can experiment here, it won’t be checked
+
+  learner_created: false
+status: Solved
+record: -1

@@ -1,0 +1,19 @@
+type: choice
+is_multiple_choice: true
+options:
+- text: Stepik.my_st.next_task()
+- text: next_task(Stepik)
+- text: Stepik.next_task(my_st)
+- text: next_task(my_st)
+- text: my_st.next_task(Stepik)
+- text: my_st.next_task()
+files:
+- name: task.py
+  visible: true
+  text: |+
+    #  You can experiment here, it won’t be checked
+
+  learner_created: false
+status: Solved
+record: -1
+custom_name: Quiz

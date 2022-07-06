@@ -1,0 +1,16 @@
+<html>
+ <head></head>
+ <body>
+  <p><strong>Подвиг 4.</strong> Имеется следующая иерархия классов исключений:</p> 
+  <p style="text-align: center;"><img alt="" height="250" name="Исключение, иерархия 1.png" src="https://ucarecdn.com/5a24282a-6c83-4255-8efa-70d864f81d1e/" width="199"></p> 
+  <p>И записан фрагмент программы:</p> 
+  <pre><code>try:
+&nbsp; &nbsp; x, y = map(float, input().split())
+&nbsp; &nbsp; d = x / y
+except ArithmeticError:
+&nbsp; &nbsp; print('ArithmeticError')
+except ZeroDivisionError:
+&nbsp; &nbsp; print('ZeroDivisionError')</code></pre> 
+  <p>В каких случаях выполнение программы перейдет в блок обработки исключения ZeroDivisionError?</p>
+ </body>
+</html>

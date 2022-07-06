@@ -1,0 +1,19 @@
+type: choice
+is_multiple_choice: true
+options:
+- text: уменьшается объем памяти, занимаемый объектом класса
+- text: в объектах класса пропадает коллекция __dict__
+- text: разрешает в экземплярах класса только те имена атрибутов, которые указаны
+    в __slots__
+- text: скорость обращения к локальным атрибутам уменьшается
+- text: разрешает в классе только те имена атрибутов, которые указаны в __slots__
+- text: скорость обращения к локальным атрибутам повышается
+files:
+- name: task.py
+  visible: true
+  text: |+
+    #  You can experiment here, it won’t be checked
+
+  learner_created: false
+status: Unchecked
+record: -1

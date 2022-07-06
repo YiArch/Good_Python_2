@@ -1,0 +1,17 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: Экземпляры (объекты) класса
+- text: Переменные и имена методов (ссылки на методы) класса
+- text: Только методы класса
+- text: Только переменные класса
+files:
+- name: task.py
+  visible: true
+  text: |+
+    #  You can experiment here, it won’t be checked
+
+  learner_created: false
+status: Solved
+record: -1
+custom_name: Quiz
